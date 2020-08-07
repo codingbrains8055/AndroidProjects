@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyNewApp</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="loginString">LOGIN</string>
+</resources>

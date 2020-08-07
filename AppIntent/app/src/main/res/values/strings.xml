@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppIntent</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_activity_name">Main Activity</string>
+    <string name="FirstButtonName">Change to 2</string>
+    <string name="title_activity_two">ActivityTwo</string>
+    <string name="ActivityTwoName">ActivityTwo</string>
+    <string name="SecondButtonName">Change to 1</string>
+    <string name="inputFieldName">Name</string>
+</resources>

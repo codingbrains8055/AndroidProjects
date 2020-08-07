@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimationApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonName">Click Me</string>
+</resources>

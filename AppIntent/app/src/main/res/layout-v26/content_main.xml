@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/ActivityOne" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#009900" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:context=".MainActivity" tools:showIn="@layout/activity_main">
+    <TextView
+        android:id="@+id/textActivityTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/main_activity_name"
+        />
+
+    <EditText
+        android:id="@+id/firstUserMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textActivityTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/inputFieldName"
+        />
+
+    <Button
+        android:id="@+id/buttonActivityOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstUserMsg"
+        android:layout_centerInParent="true"
+        android:onClick="onClick"
+        android:text="@string/FirstButtonName" />
+
+</RelativeLayout>
