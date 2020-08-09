@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         myImageView.setImageBitmap(newPhoto); */
 
         Drawable[] layers = new Drawable[2];
-        layers[0] = getResources().getDrawable(R.drawable.animage);
-        layers[1] = getResources().getDrawable(R.drawable.filterimage);
+        layers[0] = getResources().getDrawable(R.drawable.filterimage);
+        layers[1] = getResources().getDrawable(R.drawable.animage);
         LayerDrawable layerDrawable = new LayerDrawable(layers);
         myImageView.setImageDrawable(layerDrawable);
     }
