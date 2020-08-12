@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagePizzaIcon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textViewPizzaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:text="Veg Pizza" />
+
+    <TextView
+        android:id="@+id/textViewPizzaDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPizzaName"
+        android:layout_marginLeft="75dp"
+        android:text="Contains cheese, onion, garlic" />
+
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="#076F0B"
+        android:text="Order Now" />
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePizzaIcon"
+        android:text="TextView" />
+</RelativeLayout>
