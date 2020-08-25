@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:text="Contact Us"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_below="@id/textView2Contact"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your Name"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/person_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_name"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Your email"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/person_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/person_email"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="your contact number"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/person_interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your property Interest"
+        android:textColorHint="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_interest"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:background="@color/colorBlack"/>
+</RelativeLayout>

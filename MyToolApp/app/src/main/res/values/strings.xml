@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyToolApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="order_action">Order Action</string>
+    <string name="title_activity_order_activity">order_activity</string>
+    <string name="title_activity_home_delivery">HomeDelivery</string>
+    <string name="delivery">Delivery</string>
+</resources>
